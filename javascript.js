@@ -3,6 +3,7 @@
 let totalMinutes = 60; // 180 minutes
 let timeLeft = totalMinutes * 60; // Convert minutes to seconds
 let timerId;
+let timerKey = 'timeLeft_60'; // Unique key for timer
 
 let additionalTimeInSeconds = 20; // 60 minutes and 30 seconds in seconds
 timeLeft += additionalTimeInSeconds;
